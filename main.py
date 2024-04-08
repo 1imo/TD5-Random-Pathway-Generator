@@ -2,11 +2,11 @@ import sys
 import random
 import data_classes
 
-# The information has been stored in a separate class (procedural abstraction)
+# The information has been stored in a separate class (data abstraction)
 info = data_classes.Information()
 
 # Shorthand declaration of the arguments
-# Amount of towers to be generated pp, names of the players+ (although there are no strict checks (an error will occur))
+# Amount of towers to be generated pp, names of the players+
 args = sys.argv
 
 # Counter. The first name provided will be at index 2
