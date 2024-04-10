@@ -1,0 +1,12 @@
+{
+  "source": {
+    "include": ["src/"],
+    "includePattern": "\\.(js|ts|svelte)$"
+  },
+  "plugins": ["node_modules/@typescript-eslint/eslint-plugin"],
+  "opts": {
+    "recurse": true,
+    "destination": "./docs/",
+    "template": "templates/default"
+  }
+}
